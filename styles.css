@@ -1,0 +1,127 @@
+.navbar{
+background-color: red;
+display: grid;
+grid-gap: 10px;
+grid-template-columns: 50px 300px 600px 220px repeat(3,30px);
+grid-template-rows: max-content;
+justify-content: start;
+align-items: center;
+}
+
+.menuicon{
+
+}
+
+.YTIcontext{
+    justify-items: start;
+}
+
+.search{
+    height: 30px;
+    width: 600px;
+    border-color: black;
+    border-width: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+.notify{
+    height: 20px;
+    width: 20px;
+    
+}
+
+.account{
+height: 30px;
+width: 30px;
+border-radius: 50%;
+background-color: palevioletred;
+justify-items: center;
+}
+
+.grid-container{
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 560px max-content 300px;
+    grid-template-rows: max-content repeat(5, max-content);
+    justify-content: center;
+}
+
+.mainvideo{
+background-color: orange;
+grid-row-start: 1;
+grid-row-end: 5;
+align-self: center;
+
+}
+
+.sidevideomenu{
+    grid-column: 2/4;
+    display: grid;
+    background-color: blue;
+    font-family: "Roboto","Arial",sans-serif;
+    grid-template-columns: 30px repeat(4, max-content) 30px;
+    grid-template-rows: 60px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.leftarrow{
+    background-color: aqua;
+    height: 30px;
+    padding: 4px;
+    justify-items: center;
+}
+.all{
+    background-color: aqua;
+    height: 30px;
+    padding: 4px;
+}
+
+.related{
+    background-color: dodgerblue;
+    padding: 4px;
+    align-self: center;
+    height: 30px;
+}
+
+.recently-uploaded{
+    background-color: cadetblue;
+    padding: 4px;
+    height: 30px;
+}
+
+.watched{
+    background-color: blueviolet;
+    padding: 4px;
+    height: 30px;
+}
+
+.rightarrow{
+    background-color: aqua;
+    height: 30px;
+    padding: 4px;
+    justify-items: center;
+}
+
+.sidevideos{
+background-color: yellow;
+width: fit-content;
+
+}
+
+.sidevideotext{
+background-color: green;
+padding: 10px;
+font-family: "Roboto","Arial",sans-serif;
+}
+
+
+.comments{
+background-color: indigo;
+height: 500px;
+padding: 10px;
+font-family: "Roboto","Arial",sans-serif;
+}
